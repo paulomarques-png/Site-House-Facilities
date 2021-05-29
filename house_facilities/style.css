@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Importação de fontes */
+
+@font-face {
+  font-family: 'montserratmedium';
+  src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Formatação da div Container */
+html{
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  min-width: 170px;
+  font-family: 'montserratmedium';
+}
+
+/* Formatação do header */
+
+#header {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 4.0em 1em;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #ccc;
+}
+
+#logo {
+  width: 203px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu a {
+  display: block;
+  padding: 1.0em;
+  font-size: 1.8rem;
+  color: rgb(66, 66, 66);
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#iconhdr {
+  width: 37px;
+}
+
+#iconhdr:nth-last-child(1) {
+  width: 42px;
+}
+
+#iconshdr {
+  display: flex;
+  align-items: center;
+  gap: 1.0em;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+#menu-mobile {
+  padding: 10px;
+  background-color: salmon;
+}
+
+/* ---------------------------- */
+
+
+#media img{
+  width: 100%;
+}
+
+
+/* --- Formatação para telas de tamanhos especificados nos comentários abaixo --- */
+
+/* max 1280px */
+
+@media (max-width: 1280px) {
+  body{
+    ibackground-color: #ccc;
+  }
+
+  #header{
+    height: 60px;
+  }
+
+  #menu a {
+    font-size: 1.6rem;
+  }
+
+  #logo {
+    width: 143px;
+  }
+}
+
+/* max 1080px */
+
+@media (max-width: 1080px) {
+  body{
+    ibackground-color: #ccc;
+  }
+
+  #header{
+    padding: 1.5em 2.0em 1em;
+  }
+}
+
+/* max 980px */
+
+@media (max-width: 980px) {
+  #btn-mobile{
+    display: block;
+  }
+
+  #iconshdr{
+    /* display: none; */
+  }
+
+  #menu{
+    display: block;
+    position: absolute;
+    z-index: 999999;
+    top: 60px;
+    right: 0px;
+    width: 100%;
+    background-color: #ccc;
+    transition: .6s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #nav.active #menu{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  #menu a {
+    display: block;
+    padding: 1.0em;
+    font-size: 2.2rem;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    padding: 20px;
+  }
+
+  #btn-mobile{
+    display: flex;
+    padding: .5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  #hamburguer{
+    display: block;
+    width:20px;
+    border-top: 2px solid #000;
+  }
+
+  #hamburguer::after, #hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+  }
+
+  #nav.active #hamburguer{
+    border-top-color: transparent;
+  }
+  
+  #nav.active #hamburguer::before{
+    transform: rotate(135deg);
+  }
+  
+  #nav.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -7px
+  }
+}
+
+/* max 500px */
+
+@media (max-width: 500px) {
+
+  #logo {
+    min-width: 123px;
+  }
+  body{
+    ibackground-color: #ccc;
+  }
+
+  #header{
+    padding: 1.5em 2.0em 1em;
+  }
+}
