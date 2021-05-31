@@ -65,7 +65,7 @@ body {
 #menu a {
   display: block;
   padding: 1.0em;
-  font-size: 1.8rem;
+  font-size: 1.8rrem;
   color: rgb(66, 66, 66);
 }
 
@@ -122,12 +122,12 @@ main{
 }
 
 #media h1{
-  font-size: 4.8em;
+  font-size: 4.8rem;
 }
 
 #media p{
   margin: 15px 0;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   line-height: 1.6em;
 }
 
@@ -142,7 +142,7 @@ main{
   padding: 16px 35px;
   position: absolute;
   z-index: 1;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   color: #fff;
 }
 
@@ -182,18 +182,75 @@ main{
 #txtmedia h1{
   width: 920px;
   font-family: 'montserratregular';
-  font-size: 3.6em;
+  font-size: 3.6rem;
   text-align: center;
-  color: #fff;
   letter-spacing: 0.05em;
+  line-height: 1.5em;
+  color: #fff;
 }
-/* ------------ #txtmedia ---------------- */
 
-
+/* ------------ #secoes ---------------- */
 
 section{
-  padding: 0 4.0em;
+  padding: 6.0em 4.0em;
 }
+
+/* ------------ #sec1 ---------------- */
+
+#sec1{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4.0em 6.0em;
+}
+
+#sec1 article{
+  margin: 70px 40px 0 0;
+}
+
+#sec1 h1{
+  max-width: 500px;
+  font-size: 3.6rem;
+  line-height: 1.2em;
+  padding: 0.5em 0;
+  color: #555;
+}
+
+#sec1 p{
+  max-width: 500px;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  color: #666;
+}
+
+#sec1 ul{
+  max-width: 705px;
+  height: 450px;
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+  ibackground-color: cyan;
+}
+
+#sec1 li{
+  ibackground-color: crimson;
+  padding: 4.0em 0;
+  width: 195px;
+  height: 195px;
+  text-align: center;
+  box-shadow: 20px 20px 16px -6px rgba(66, 66, 66, .1);
+}
+
+#sec1 h2{
+  font-family: 'montserratregular';
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+  color: #999;
+  padding-top: 20px;
+}
+
+
+
 
 
 /* --- Formatação para telas de tamanhos especificados nos comentários abaixo --- */
@@ -210,7 +267,7 @@ section{
   }
 
   #menu a {
-    font-size: 1.6rem;
+    font-size: 1.6rrem;
   }
 
   #logo {
@@ -267,7 +324,7 @@ section{
   #menu a {
     display: block;
     padding: 1.0em;
-    font-size: 2.2rem;
+    font-size: 2.2rrem;
     color: rgb(66, 66, 66);
     text-align: center;
     padding: 20px;
