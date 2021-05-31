@@ -32,6 +32,7 @@ body {
   margin: auto;
   min-width: 170px;
   font-family: 'montserratmedium';
+  background-color: rgb(230, 230, 230);
 }
 
 /* Formatação do header */
@@ -42,7 +43,7 @@ body {
   padding: 1.5em 4.0em 1em;
   justify-content: space-between;
   height: 90px;
-  background-color: #ccc;
+  background-color: #fff;
 }
 
 #logo {
@@ -89,11 +90,93 @@ body {
   background-color: salmon;
 }
 
-/* ---------------------------- */
+/* ------------ #media ---------------- */
 
+main{
+  background-color: #fff;
+}
+
+#media {
+  position: relative;
+}
 
 #media img{
+  display: block;
   width: 100%;
+}
+
+#media figcaption{
+  position: absolute;
+  top: 80px;
+  left: 145px;
+  width: 500px;
+  color: #fff;
+}
+
+#media h1{
+  font-size: 4.8em;
+}
+
+#media p{
+  margin: 15px 0;
+  font-size: 1.8em;
+  line-height: 1.6em;
+}
+
+#media a{
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+#media a span{
+  padding: 16px 35px;
+  position: absolute;
+  z-index: 1;
+  font-size: 1.6em;
+  color: #fff;
+}
+
+#media a:hover span{
+  color: rgb(0, 72, 167);
+  transition: 0.5s;
+}
+
+#media a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+#media a:hover::before{
+  transform: scaleX(1);
+  transition: 0.5s;
+}
+
+/* ------------ #txtmedia ---------------- */
+
+#txtmedia{
+
+  background-color: rgb(4, 75, 154);
+
+}
+
+
+/* ------------ #txtmedia ---------------- */
+
+
+
+section{
+  padding: 0 4.0em;
+  background-color: aquamarine;
 }
 
 
