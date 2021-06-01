@@ -39,7 +39,7 @@ body {
   max-width: 1440px;
   margin: auto;
   min-width: 170px;
-  font-family: 'montserratmedium';
+  font-family: 'montserratregular';
   background-color: rgb(230, 230, 230);
 }
 
@@ -125,33 +125,37 @@ main{
   font-size: 4.8rem;
 }
 
-#media p{
+#media p.txt{
   margin: 15px 0;
   font-size: 1.8rem;
   line-height: 1.6em;
 }
 
-#media a{
+
+figure a{
   position: absolute;
   width: 160px;
   height: 50px;
   border: 1px solid rgb(230, 230, 230);
+  text-align: center;
 }
 
-#media a span{
-  padding: 16px 35px;
+figure a p{
+  padding: 16px 0;
+  width: 160px;
   position: absolute;
   z-index: 1;
   font-size: 1.6rem;
   color: #fff;
+  text-align: center;
 }
 
-#media a:hover span{
+figure a:hover p{
   color: rgb(0, 72, 167);
   transition: 0.5s;
 }
 
-#media a::before{
+figure a::before{
   content: '';
   position: absolute;
   top: 0;
@@ -164,7 +168,7 @@ main{
   transition: 0.5s;
 }
 
-#media a:hover::before{
+figure a:hover::before{
   transform: scaleX(1);
   transition: 0.5s;
 }
@@ -326,46 +330,6 @@ section{
   left: 50%;
   margin-left: -80px;
   color: #fff;
-}
-#sec3 figure a{
-  position: absolute;
-  width: 160px;
-  height: 50px;
-  border: 1px solid rgb(230, 230, 230);
-  text-align: center;
-}
-
-#sec3 figure a p{
-  padding: 16px 0;
-  width: 160px;
-  position: absolute;
-  z-index: 1;
-  font-size: 1.6rem;
-  color: #fff;
-  text-align: center;
-}
-
-#sec3 figure a:hover p{
-  color: rgb(0, 72, 167);
-  transition: 0.5s;
-}
-
-#sec3 figure a::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: 0.5s;
-}
-
-#sec3 figure a:hover::before{
-  transform: scaleX(1);
-  transition: 0.5s;
 }
 
 
