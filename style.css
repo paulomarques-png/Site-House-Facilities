@@ -30,17 +30,24 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'mnsrtxlight';
+  src: url('../fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Formatação da div Container */
 html{
   font-size: 62.5%;
 }
 
 body {
-  max-width: 1440px;
+  max-width: 100%;
   margin: auto;
   min-width: 170px;
   font-family: 'montserratregular';
-  background-color: rgb(230, 230, 230);
 }
 
 /* Formatação do header */
@@ -65,8 +72,9 @@ body {
 #menu a {
   display: block;
   padding: 1.0em;
-  font-size: 1.8rrem;
+  font-size: 1.8rem;
   color: rgb(66, 66, 66);
+  font-family: 'montserratmedium';
 }
 
 #nav {
@@ -200,6 +208,10 @@ section{
 
 section div:nth-child(2){
   margin-top: 60px;
+}
+
+section img{
+  max-width: 100%;
 }
 
 /* ------------ #sec1 ---------------- */
@@ -352,6 +364,81 @@ section div:nth-child(2){
  #artigos p{
   font-size: 1.6em;
   color: #666;
+}
+
+
+/* ------------ #artigos ---------------- */
+
+footer{
+  background-color: #333;
+  color: #fff;
+}
+
+footer h1{
+  padding: 20px 0px;
+  width: 100%;
+  font-family: 'mnsrtxlight';
+  font-size: 4.8em;
+  text-align: center;
+  background-color: #222;
+}
+
+#principal{
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+#principal>p{
+  font-size: 1.6em;
+
+}
+
+#bttm-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  max-width: 750px;
+}
+
+#bttm-nav img{
+  width: 240px;
+}
+
+footer ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 463px;
+  font-size: 1.6em;
+}
+
+footer li{
+  padding: 5 20px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+footer li a{
+  padding: 5px 20px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#copysocial{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  font-family: 'mnsrtxlight';
+  font-size: 1.6em;
+  color: #fff;
+}
+
+#copysocial img{
+  width: 35px;
+  margin: 0 10px;
 }
 
 
