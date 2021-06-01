@@ -250,7 +250,7 @@ section{
 }
 
 
-/* ------------ #sec1 ---------------- */
+/* ------------ #sec2 ---------------- */
 
 #sec2 h1{
   text-align: center;
@@ -289,6 +289,83 @@ section{
   max-width: 320px;
   font-size: 1.6rem;
   color: rgb(90, 90, 90);
+}
+
+
+/* ------------ #sec3 ---------------- */
+#sec3{
+  padding: 60px 0;
+}
+
+#sec3 h1{
+  text-align: center;
+  font-family: 'montserratregular';
+  font-size: 3.6rem;
+  letter-spacing: .005rem;
+  color: rgb(65, 65, 65);
+}
+
+#sec3 ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#sec3 figure {
+  position: relative;
+}
+
+#sec3 figure img{
+  display: block;
+  width: 100%;
+}
+
+#sec3 figure figcaption{
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  margin-left: -80px;
+  color: #fff;
+}
+#sec3 figure a{
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  border: 1px solid rgb(230, 230, 230);
+  text-align: center;
+}
+
+#sec3 figure a p{
+  padding: 16px 0;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+}
+
+#sec3 figure a:hover p{
+  color: rgb(0, 72, 167);
+  transition: 0.5s;
+}
+
+#sec3 figure a::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+#sec3 figure a:hover::before{
+  transform: scaleX(1);
+  transition: 0.5s;
 }
 
 
