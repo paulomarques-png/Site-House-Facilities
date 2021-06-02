@@ -247,11 +247,9 @@ section img{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
-  ibackground-color: cyan;
 }
 
 #sec1 li{
-  ibackground-color: crimson;
   padding: 4.0em 0;
   width: 195px;
   height: 195px;
@@ -447,9 +445,6 @@ footer li a{
 /* max 1280px */
 
 @media (max-width: 1280px) {
-  body{
-    ibackground-color: #ccc;
-  }
 
   #header{
     height: 60px;
@@ -467,9 +462,6 @@ footer li a{
 /* max 1080px */
 
 @media (max-width: 1080px) {
-  body{
-    ibackground-color: #ccc;
-  }
 
   #header{
     padding: 1.5em 2.0em 1em;
@@ -482,11 +474,7 @@ footer li a{
   #btn-mobile{
     display: block;
   }
-
-  #iconshdr{
-    /* display: none; */
-  }
-
+  
   #menu{
     display: block;
     position: absolute;
@@ -564,9 +552,6 @@ footer li a{
 
   #logo {
     min-width: 123px;
-  }
-  body{
-    ibackground-color: #ccc;
   }
 
   #header{
