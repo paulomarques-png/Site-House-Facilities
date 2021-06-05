@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Mobile</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contato-style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="index.html">
+            <img src="imgs/logo.svg" alt="Logomarca">
+        </a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#">SOBRE NÓS</a></li>
+                <li><a href="#">TRABALHE NA HF</a></li>
+                <li><a href="contato.html">FALE CONOSCO</a></li>
+            </ul>
+            <div id="iconshdr">
+                <a id="iconhdr" href="#">
+                    <img src="imgs/iconwhd.svg" alt="Botão iniciar conversa com o aplicativo WhatsApp">
+                </a>
+                <a id="iconhdr" href="#">
+                    <img src="imgs/icontelhd.svg" alt="Botão fazer ligação">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <figure id="media">
+            <picture>
+                <source media="(max-width: 500px)" srcset="http://via.placeholder.com/1440x300.png">
+
+                <source media="(max-width: 980px)" srcset="http://via.placeholder.com/1440x300.png">
+
+                <source media="(max-width: 1080px)" srcset="http://via.placeholder.com/1440x300.png">
+
+                <source media="(max-width: 1280px)" srcset="http://via.placeholder.com/1440x300.png">
+
+                <img src="http://via.placeholder.com/1440x300.png"
+                    alt="Imagem complementar para texto institucional - Recepcionista no balcão de atendimento">
+            </picture>
+
+            <figcaption>
+                <h1>FALE CONOSCO</h1>
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </figcaption>
+        </figure>
+        
+        <h1 id="titlesecoes">ENTRE EM CONTATO COM A HOUSE FACILITIES</h1>
+
+        <section id="dados">
+            <ul>
+                <li>
+                    <img src="http://via.placeholder.com/74x74.png" alt="">
+                    <h1>Telefone</h1>
+                    <p>11 5899-8899</p>
+                </li>
+                <li>
+                    <img src="http://via.placeholder.com/74x74.png" alt="">
+                    <h1>WhatsApp</h1>
+                    <p>11 95899-8899</p>
+                </li>
+                <li>
+                    <img src="http://via.placeholder.com/74x74.png" alt="">
+                    <h1>E-mail</h1>
+                    <p>contato@housefacilieites.com.br</p>
+                </li>
+            </ul>
+            <div>
+                <img src="http://via.placeholder.com/74x74.png" alt="">
+                <h1>Onde estamos?</h1>
+                <p>Avenida Paulista, 1765 - CJ72,<br>
+                    Bela Vista, São Paulo-SP<br>
+                    CEP 01311-200</p>
+            </div>
+        </section>
+        
+        <h1 id="titlesecoes">OU NOS ENVIE UMA MENSAGEM USANDO NOSSO FORMULÁRIO!</h1>
+
+        <form action="" id="formulario">
+            <label for="f-nome">NOME COMPLETO</label>
+            <input type="text" id="f-nome" name="f-nome" placeholder="Ex: José da Silva Gomes" required="required">
+
+            <label for="f-tel">TELEFONE</label>
+            <input type="text" id="f-tel" name="f-tel" placeholder="Ex: 11 978956323*" required="required">
+            
+            <label for="f-email">E-MAIL</label>
+            <input type="text" id="f-email" name="f-email" placeholder="Ex:josegomes@provedor.com.br" required="required">
+
+            <label for="f-mensagem">MENSAGEM</label>            
+            <textarea name="mensagem" id="f-mensagem" placeholder="Escreva aqui sua f-mensagem" required></textarea>
+
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+
+    </main>
+
+    <footer>
+        <h1>UMA FRASE DE AÇÃO BEM PENSADA</h1>
+        <div id="principal">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
+            <div id="bttm-nav">
+                <img src="imgs/logofooter.svg" alt="Logotipo da House Facilities">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">SERVIÇOS</a></li>
+                    <li><a href="/">TRABALHE NA HF</a></li>
+                    <li><a href="/">SOBRE NÓS</a></li>
+                    <li><a href="/">FALE CONOSCO</a></li>
+                    <li><a href="#">PARCEIROS</a></li>
+                </ul>
+            </div>
+            <div id="copysocial">
+                <p>Copyright ©2021 House Facilities - Facilities Services</p>
+                <a href="">
+                    <img src="imgs/icon-face.svg" alt="Icone nome">
+                    <img src="imgs/icon-whats.svg" alt="Icone nome">
+                    <img src="imgs/icon-insta.svg" alt="Icone nome">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
