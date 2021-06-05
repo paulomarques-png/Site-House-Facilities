@@ -1,0 +1,29 @@
+/* ------------ #media ---------------- */
+
+#media {
+    position: relative;
+}
+
+#media img {
+    display: block;
+    width: 100%;
+}
+
+#media figcaption {
+    position: absolute;
+    top: 80px;
+    left: 145px;
+    width: 500px;
+    color: #fff;
+}
+
+#media h1 {
+    font-size: 3.4rem;
+}
+
+#media p.txt {
+    font-size: 1.6rem;
+    line-height: 1.6em;
+}
+
+/* ------------ #txtmedia ---------------- */

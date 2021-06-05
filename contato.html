@@ -12,7 +12,7 @@
 
 <body>
     <header id="header">
-        <a id="logo" href="#">
+        <a id="logo" href="index.html">
             <img src="imgs/logo.svg" alt="Logomarca">
         </a>
         <nav id="nav">
@@ -23,7 +23,7 @@
                 <li><a href="#">SERVIÇOS</a></li>
                 <li><a href="#">SOBRE NÓS</a></li>
                 <li><a href="#">TRABALHE NA HF</a></li>
-                <li><a href="#">FALE CONOSCO</a></li>
+                <li><a href="contato.html">FALE CONOSCO</a></li>
             </ul>
             <div id="iconshdr">
                 <a id="iconhdr" href="#">
@@ -39,26 +39,61 @@
     <main>
         <figure id="media">
             <picture>
-                <source media="(max-width: 500px)" srcset="imgs/mediatop-500.png">
+                <source media="(max-width: 500px)" srcset="http://via.placeholder.com/1440x300.png">
 
-                <source media="(max-width: 980px)" srcset="imgs/mediatop-980.png">
+                <source media="(max-width: 980px)" srcset="http://via.placeholder.com/1440x300.png">
 
-                <source media="(max-width: 1080px)" srcset="imgs/mediatop-1080.png">
+                <source media="(max-width: 1080px)" srcset="http://via.placeholder.com/1440x300.png">
 
-                <source media="(max-width: 1280px)" srcset="imgs/mediatop-1280.png">
+                <source media="(max-width: 1280px)" srcset="http://via.placeholder.com/1440x300.png">
 
-                <img src="imgs/mediatop-1440.png"
+                <img src="http://via.placeholder.com/1440x300.png"
                     alt="Imagem complementar para texto institucional - Recepcionista no balcão de atendimento">
             </picture>
 
             <figcaption>
-                <h1>Facilities Services, sempre na palma da sua mão.</h1>
-                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#"><p>Saiba mais</p></a>
+                <h1>FALE CONOSCO</h1>
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </figcaption>
         </figure>
+
+        <section id="dados">
+            <ul>
+                <li>
+                    <img src="http://via.placeholder.com/74x74.png" alt="">
+                    <h1></h1>
+                    <p></p>
+                </li>
+                <li>
+                    <img src="http://via.placeholder.com/74x74.png" alt="">
+                    <h1></h1>
+                    <p></p>
+                </li>
+                <li>
+                    <img src="http://via.placeholder.com/74x74.png" alt="">
+                    <h1></h1>
+                    <p></p>
+                </li>
+            </ul>
+            <div>
+                <img src="http://via.placeholder.com/74x74.png" alt="">
+                <h1></h1>
+                <p></p>
+            </div>
+        </section>
+
+        <form action="" id="formulario">
+            <h1></h1>
+            <label for="f-nome">NOME COMPLETO</label>
+            <input type="text" id="f-nome" name="f-nome" placeholder="Ex: José da Silva Gomes" required="required">
+            <label for="f-tel">TELEFONE</label>
+            <input type="text" id="f-tel" name="f-tel" placeholder="Ex: 11 978956323*" required="required">
+            <label for="f-email">E-MAIL</label>
+            <input type="text" id="f-email" name="f-email" placeholder="Ex:josegomes@provedor.com.br" required="required">
+            <label for="f-mensagem">MENSAGEM</label>            
+            <textarea name="mensagem" id="f-mensagem" placeholder="Escreva aqui sua f-mensagem" required></textarea>
+            <input type="submit" name="acao" value="Enviar">
+        </form>
 
     </main>
 
