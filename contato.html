@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Mobile</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contato-style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="#">
+            <img src="imgs/logo.svg" alt="Logomarca">
+        </a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#">SOBRE NÓS</a></li>
+                <li><a href="#">TRABALHE NA HF</a></li>
+                <li><a href="#">FALE CONOSCO</a></li>
+            </ul>
+            <div id="iconshdr">
+                <a id="iconhdr" href="#">
+                    <img src="imgs/iconwhd.svg" alt="Botão iniciar conversa com o aplicativo WhatsApp">
+                </a>
+                <a id="iconhdr" href="#">
+                    <img src="imgs/icontelhd.svg" alt="Botão fazer ligação">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <figure id="media">
+            <picture>
+                <source media="(max-width: 500px)" srcset="imgs/mediatop-500.png">
+
+                <source media="(max-width: 980px)" srcset="imgs/mediatop-980.png">
+
+                <source media="(max-width: 1080px)" srcset="imgs/mediatop-1080.png">
+
+                <source media="(max-width: 1280px)" srcset="imgs/mediatop-1280.png">
+
+                <img src="imgs/mediatop-1440.png"
+                    alt="Imagem complementar para texto institucional - Recepcionista no balcão de atendimento">
+            </picture>
+
+            <figcaption>
+                <h1>Facilities Services, sempre na palma da sua mão.</h1>
+                <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                    accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#"><p>Saiba mais</p></a>
+            </figcaption>
+        </figure>
+
+    </main>
+
+    <footer>
+        <h1>UMA FRASE DE AÇÃO BEM PENSADA</h1>
+        <div id="principal">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
+            <div id="bttm-nav">
+                <img src="imgs/logofooter.svg" alt="Logotipo da House Facilities">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">SERVIÇOS</a></li>
+                    <li><a href="/">TRABALHE NA HF</a></li>
+                    <li><a href="/">SOBRE NÓS</a></li>
+                    <li><a href="/">FALE CONOSCO</a></li>
+                    <li><a href="#">PARCEIROS</a></li>
+                </ul>
+            </div>
+            <div id="copysocial">
+                <p>Copyright ©2021 House Facilities - Facilities Services</p>
+                <a href="">
+                    <img src="imgs/icon-face.svg" alt="Icone nome">
+                    <img src="imgs/icon-whats.svg" alt="Icone nome">
+                    <img src="imgs/icon-insta.svg" alt="Icone nome">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
