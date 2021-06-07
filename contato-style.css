@@ -120,6 +120,10 @@ input, textarea{
     font-size: 1.8rem;
 }
 
+::placeholder{
+    opacity: .15;
+}
+
 label{
     display: block;
     margin-bottom: 10px;
@@ -128,8 +132,10 @@ label{
 }
 
 form input[type=submit]{
+    font-family: 'montserratmedium';
     border: none;
     background-color: lightgreen;
+    color: green;
 }
 
 textarea{
