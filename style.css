@@ -121,7 +121,7 @@ footer{
 }
 
 footer h1{
-  padding: 20px 0px;
+  padding: 20px 0px 10px;
   width: 100%;
   font-family: 'mnsrtxlight';
   font-size: 4.8em;
@@ -130,8 +130,9 @@ footer h1{
 }
 
 #principal{
+  padding: 25px 0;
   max-width: 900px;
-  margin: 25px auto;
+  margin: auto;
 }
 
 #principal>p{
@@ -175,7 +176,6 @@ footer li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
   width: 100%;
   font-family: 'mnsrtxlight';
   font-size: 1.6em;
@@ -185,7 +185,7 @@ footer li a{
 #copysocial img{
   width: 35px;
   margin: 0 10px;
-}
+}*/
 
 
 /* --- Formatação para telas de tamanhos especificados nos comentários abaixo --- */
