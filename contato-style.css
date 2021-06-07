@@ -40,18 +40,45 @@
     display: flex;
     justify-content: space-between;
     background-color: royalblue;
+    font-size: 2.4rem;
+}
+
+#dados img{
+    float: left;
+    margin-right: 25px;
+}
+
+#dados h1{
+    margin: 10px 0 0;
+    font-weight: normal;
+    color: #aaa;
+    font-size: 2.4rem;
+}
+
+#dados p{
+    font-weight: normal;
+    color: #444;
 }
 
 #dados ul{
-    width: ;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 727px;
+    max-width: 727px;
     border-right: solid 1px rgb(0, 0, 0);
     background-color: blueviolet;
 }
 
 #dados ul li{
-    width:  ;
+    width: 50%;
+    background-color: aqua;  
+}
+
+#dados ul li:last-child{
+    width: 100%;
+}
+
+#dados div{
+    max-width: 553px;
+    
 }
