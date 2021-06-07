@@ -106,15 +106,14 @@ body {
   background-color: salmon;
 }
 
+/* ------------ #main ---------------- */
 
-/* ------------ #artigos ---------------- */
-
-main {
+main{
   background-color: #fff;
 }
 
 
-/* ------------ #artigos ---------------- */
+/* ------------ #footer ---------------- */
 
 footer{
   background-color: #333;
