@@ -29,6 +29,136 @@
 
 /* ------------ section ---------------- */
 
-section, form{
-    padding: 0 40px;
+section {
+    padding: 60px 40px;
+}
+
+/* ------------ article ---------------- */
+
+article {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+article h1, h2, h3 {
+    font-weight: normal;
+    color: rgb(80, 80, 80);
+}
+
+article h1 {
+    margin: -22px 0 0 -5px;
+    font-size: 12.8rem;
+}
+
+article h2 {
+    font-size: 8.6rem;
+    line-height: 50px;
+    letter-spacing: 0.1rem;
+}
+
+article h3 {
+    padding: 20px 7px;
+    font-size: 2.0rem;
+    letter-spacing: 0.17rem;
+    text-align: justify;
+}
+
+article p {
+    margin-left: 50px;
+    font-size: 1.6rem;
+    color: rgb(90, 90, 90);
+}
+
+/* ------------ ul ---------------- */
+
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+#sobre li {
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+}
+
+#sobre li img {
+    width: 68px;
+}
+
+#sobre h2 {
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    color: rgb(80, 80, 80);
+}
+
+#sobre p {
+    padding-top: 10px;
+    max-width: 300px;
+    font-size: 1.6rem;
+    color: rgb(90, 90, 90);
+}
+
+/* ------------ #t-pilares ---------------- */
+
+#t-pilares {
+    padding: 100px 0 50px;
+    width: 100%;
+    display: flex;
+}
+
+#t-pilares p {
+    margin: -45px 45px 0;
+    font-size: 31.8rem;
+    color: rgb(4, 75, 154);
+}
+
+#t-pilares h1 {
+    font-size: 7.0rem;
+    max-width: 818px;
+    font-weight: lighter;
+    color: #999;
+}
+
+/* ------------ #pilares ---------------- */
+
+#pilares {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#pilares>div:nth-child(even) {
+    align-self: flex-end
+}
+
+#pilares>div {
+    display: flex;
+}
+
+#pilares>div>p {
+    margin: -15px 20px 0 0;
+    font-size: 11rem;
+    color: rgb(4, 75, 154);
+}
+
+span>h2 {
+    font-size: 2.6rem;
+    margin-bottom: 8px;
+}
+
+span>p {
+    max-width: 570px;
+    font-size: 1.8rem;
+    color: #444;
+}
+
+section>p {
+    margin: 50px auto 0;
+    max-width: 80%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #222;
 }
