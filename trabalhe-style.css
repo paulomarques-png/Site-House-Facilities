@@ -27,88 +27,50 @@
     line-height: 1.6em;
 }
 
-/* ------------ section ---------------- */
+/* ------------ section form---------------- */
 
-section, form{
-    padding: 0 40px;
+section{
+    padding: 80px 40px 60px;
 }
 
-/* ------------ h1#titlesecoes ---------------- */
+/* ------------ #trabalhe ---------------- */
 
-#titlesecoes{
-    margin: 80px 0;
-    font-size: 2.8rem;
-    font-weight: normal;
-    text-align: center;
-    color: rgb(63, 68, 68);
-}
-
-/* ------------ #dados ---------------- */
-
-#dados{
+#trabalhe{
     display: flex;
     justify-content: space-between;
-    font-size: 2.4rem;
 }
 
-#dados img{
-    float: left;
-    margin-right: 25px;
-}
+/* ------------ article ---------------- */
 
-#dados h1{
-    margin: 10px 0 0;
-    font-weight: normal;
-    color: #aaa;
-    font-size: 2.4rem;
-}
-
-#dados p{
-    font-weight: normal;
+article{
+    max-width: 550px;
     color: #444;
 }
 
-#dados ul{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 727px;
-    border-right: solid 1px rgb(0, 0, 0);
+article h1{
+    font-size: 5.8rem;
+    font-weight: normal;
+    letter-spacing: 0.4px;
 }
 
-#dados ul li{
-    width: 50%;
+article h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: 1.3px;
+    text-align: justify;
 }
 
-#dados ul li:last-child{
-    width: 100%;
-    margin-top: 60px;
-}
-
-#dados div{
-    width: 473px;
-}
-
-#dados div p{
-    width: 373px;
-    overflow: auto;
+article p{
+    padding: 15px 0;
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
 }
 
 /* ------------ form ---------------- */
 
 form{
-    display: flex;
     width: 100%;
-    margin-bottom: 50px;
-}
-
-span:first-child{
-    padding-right: 80px;
-}
-
-form span{
-    display: block;
-    width: 50%;
+    padding-left: 100px;
 }
 
 input, textarea{
@@ -140,6 +102,6 @@ form input[type=submit]{
 }
 
 textarea{
-    height: 247px;
+    height: 147px;
     resize: none;
 }
