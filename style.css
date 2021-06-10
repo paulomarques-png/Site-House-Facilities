@@ -43,7 +43,7 @@
 /* Formatação da div Container */
 html{
   font-size: 62.5%;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 body {
@@ -51,6 +51,7 @@ body {
   margin: auto;
   min-width: 170px;
   font-family: 'montserratregular';
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
 }
 
 /* Formatação do header */
@@ -60,34 +61,35 @@ body {
   align-items: center;
   padding: 1.5em 4.0em 1em;
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
   background-color: #fff;
 }
 
 #logo {
-  width: 203px;
+  width: 163px;
 }
 
 #menu {
   display: flex;
+  gap: 5rem;
 }
 
 #menu a {
   display: block;
-  padding: 1.0em;
+  padding: 1.0em 0;
   font-size: 1.8rem;
-  color: rgb(66, 66, 66);
+  color: rgb(143, 143, 143);
   font-family: 'montserratmedium';
 }
 
 #nav {
   display: flex;
   align-items: center;
-  gap: 2rem;
 }
 
 #iconhdr {
   width: 37px;
+  display: none;
 }
 
 #iconhdr:nth-last-child(1) {
@@ -182,12 +184,24 @@ footer li a{
   width: 100%;
   font-family: 'mnsrtxlight';
   font-size: 1.6em;
-  color: #fff;
+  color: #999;
+}
+
+#copysocial span{
+  display: flex;
+  gap: 10px;
+}
+
+#copysocial a{
+  opacity: 0.4;
+}
+
+#copysocial a:hover{
+  opacity: 1;
 }
 
 #copysocial img{
   width: 35px;
-  margin: 0 10px;
 }
 
 /* --- Formatação para telas de tamanhos especificados nos comentários abaixo --- */
