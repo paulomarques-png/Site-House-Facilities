@@ -47,6 +47,7 @@
     font-size: 1.6rem;
     color: #fff;
     text-align: center;
+    transition: 0.5s;
   }
   
   figure a:hover p{
@@ -190,6 +191,20 @@
     left: 50%;
     margin-left: -80px;
     color: #fff;
+  }
+  
+  #sec2 figure:hover{
+    cursor: pointer;
+  }
+  
+  #sec2 figure:hover p{
+    color: rgb(0, 72, 167);
+    transition: 0.5s;
+  }
+  
+  #sec2 figure:hover a::before{
+    transform: scaleX(1);
+    transition: 0.5s;
   }
   
   
