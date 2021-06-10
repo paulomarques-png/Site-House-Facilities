@@ -165,14 +165,12 @@ footer ul{
   font-size: 1.6em;
 }
 
-footer li{
-  padding: 5 20px;
-  text-decoration: underline;
-  color: #fff;
-}
-
 footer li a{
   padding: 5px 20px;
+  color: #999;
+}
+
+footer li a:hover{
   text-decoration: underline;
   color: #fff;
 }
