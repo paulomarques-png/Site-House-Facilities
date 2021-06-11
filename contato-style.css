@@ -53,7 +53,12 @@ section, form{
 
 #dados img{
     float: left;
+    max-width: 64px;
     margin-right: 25px;
+}
+
+#dados li:first-child img{
+    max-width: 78px;
 }
 
 #dados h1{
