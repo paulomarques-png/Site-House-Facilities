@@ -193,10 +193,6 @@
     color: #fff;
   }
   
-  #sec2 figure:hover{
-    cursor: pointer;
-  }
-  
   #sec2 figure:hover p{
     color: rgb(0, 72, 167);
     transition: 0.5s;
