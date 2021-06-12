@@ -149,10 +149,14 @@
     box-shadow: 20px 20px 16px -6px rgba(66, 66, 66, .1);
   }
   
+  #sec1 li img{
+    height: 85px;
+  }
+  
   #sec1 h2{
     font-size: 1.8rem;
     letter-spacing: 0.05em;
-    color: #999;
+    color: #444;
     padding-top: 20px;
     
   }
