@@ -47,8 +47,8 @@ section, form{
 
 #dados{
     display: flex;
-    justify-content: space-between;
     font-size: 2.4rem;
+    background-color: darkblue;
 }
 
 #dados img{
@@ -74,15 +74,15 @@ section, form{
 }
 
 #dados ul{
+    width: 80%;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 727px;
     border-right: solid 1px rgb(0, 0, 0);
 }
 
 #dados ul li{
     width: 50%;
+    background-color: blueviolet;
 }
 
 #dados ul li:last-child{
@@ -91,12 +91,14 @@ section, form{
 }
 
 #dados div{
-    width: 473px;
+    width: 445px;
+    background-color: chartreuse;
 }
 
 #dados div p{
-    width: 373px;
+    width: 353px;
     overflow: auto;
+    background-color: darkgoldenrod;
 }
 
 /* ------------ form ---------------- */
