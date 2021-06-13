@@ -84,14 +84,16 @@ input, textarea{
 }
 
 ::placeholder{
-    opacity: .15;
+    opacity: .35;
 }
 
 label{
+    margin-left: 15px;
     display: block;
     margin-bottom: 10px;
-    font-family: 'montserratregular';
+    font-family: 'montserratmedium';
     font-size: 1.8rem;
+    color: rgb(4, 75, 154);
 }
 
 form input[type=submit]{
@@ -99,6 +101,13 @@ form input[type=submit]{
     border: none;
     background-color: lightgreen;
     color: green;
+    transition: .3s;
+}
+
+form input[type=submit]:hover{
+    background-color: green;
+    color: lightgreen;
+    transition: .3s;
 }
 
 textarea{

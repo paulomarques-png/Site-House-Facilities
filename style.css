@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'mnsrtxlight';
+  font-family: 'mntsrtxlight';
   src: url('../fonts/montserrat-extralight-webfont.woff2') format('woff2'),
        url('../fonts/montserrat-extralight-webfont.woff') format('woff');
   font-weight: normal;
@@ -128,7 +128,7 @@ footer{
 footer h1{
   padding: 20px 0px 10px;
   width: 100%;
-  font-family: 'mnsrtxlight';
+  font-family: 'mntsrtxlight';
   font-size: 4.8em;
   text-align: center;
   background-color: #222;
@@ -180,7 +180,7 @@ footer li a:hover{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-family: 'mnsrtxlight';
+  font-family: 'mntsrtxlight';
   font-size: 1.6em;
   color: #999;
 }
