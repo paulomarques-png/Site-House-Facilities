@@ -69,6 +69,11 @@ body {
   width: 163px;
 }
 
+#nav {
+  display: flex;
+  align-items: center;
+}
+
 #menu {
   display: flex;
   gap: 5rem;
@@ -80,11 +85,29 @@ body {
   font-size: 1.8rem;
   color: rgb(143, 143, 143);
   font-family: 'montserratmedium';
+  position: relative;
+  transition: .5s;
 }
 
-#nav {
-  display: flex;
-  align-items: center;
+#menu a:hover {
+  color: rgb(4, 75, 154);
+}
+
+#menu li a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 42px;
+  border-bottom: 2px solid rgb(4, 75, 154);
+  transform: scaleX(0);
+  transition: .5s;
+}
+
+#menu li:hover a:after {
+  transform: scaleX(1.1);
+  transition: .5s;
 }
 
 #iconhdr {
@@ -142,7 +165,12 @@ footer h1{
 
 #principal>p{
   font-size: 1.6em;
+  font-weight: lighter;
+}
 
+#principal > p a{
+  color: #999;
+  text-decoration: underline;
 }
 
 #bttm-nav{
