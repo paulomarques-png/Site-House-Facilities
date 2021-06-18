@@ -166,6 +166,7 @@ footer h1{
 #principal>p{
   font-size: 1.6em;
   font-weight: lighter;
+  text-align: center;
 }
 
 #principal > p a{

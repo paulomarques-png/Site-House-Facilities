@@ -114,7 +114,7 @@
   }
   
   #sec1 article{
-    margin: 70px 40px 0 0;
+    margin: 40px 40px 0 0;
   }
   
   #sec1 h1{
@@ -146,7 +146,13 @@
     width: 195px;
     height: 195px;
     text-align: center;
-    box-shadow: 20px 20px 16px -6px rgba(66, 66, 66, .1);
+    transition: .5s;
+  }
+  
+  
+  #sec1 li:hover{
+    box-shadow: 0px 0px 27px 5px rgba(0,0,0,0.17);
+    transition: .5s;
   }
   
   #sec1 li img{
