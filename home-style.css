@@ -105,6 +105,7 @@
   /* ------------ #sec1 ---------------- */
   
   #sec1{
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
   }
@@ -160,6 +161,7 @@
     letter-spacing: 0.05em;
     color: #444;
     padding-top: 20px;
+    font-weight: lighter;
     
   }
     
@@ -210,8 +212,9 @@
   
   
   /* ------------ #sec3 ---------------- */
-  
+
   #sec3 h1{
+    padding-top: 20px;
     text-align: center;
     font-size: 3.6rem;
     letter-spacing: .005rem;
@@ -221,7 +224,7 @@
   #sec3 ul{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    padding: 50px 0;
   }
   
   #sec3 li{
