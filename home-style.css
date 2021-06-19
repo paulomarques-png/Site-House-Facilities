@@ -98,10 +98,6 @@
     padding: 6.0em 8.0em;
   }
   
-  section div:nth-child(2){
-    margin-top: 60px;
-  }
-  
   section img{
     max-width: 100%;
   }
@@ -181,7 +177,6 @@
   }
   
   #sec2 ul{
-    display: flex;
     justify-content: space-between;
     margin-top: 30px;
   }
