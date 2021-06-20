@@ -213,6 +213,11 @@ p{
     transform: scaleX(1);
     transition: 0.5s;
   }
+
+  .duaslinhas{
+    padding: 8px;
+    line-height: 1.7rem;
+  }
   
   
   /* ------------ #sec3 ---------------- */
