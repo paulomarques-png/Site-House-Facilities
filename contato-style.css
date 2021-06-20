@@ -93,6 +93,7 @@ section, form{
     color: #666;
     font-family: 'mntsrtxlight';
     font-size: 2rem;
+    overflow: auto;
 }
 
 #dados div{
