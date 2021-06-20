@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+p{
+  line-height: 2rem;
+}
+
 /* ------------ #media ---------------- */
 
 #media {
@@ -263,7 +267,7 @@
     margin: 0 auto 40px;
     font-size: 1.8rem;
     text-align: center;
-    color: #555;
+    color: #999;
   }
 
   #sec4 p a{
