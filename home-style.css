@@ -410,6 +410,8 @@ section img {
     height: 400px;
     overflow: hidden;
   }
+  /* ------------ #sec2 ---------------- */
+  #sec2 img {}
   /* ------------ #artigos ---------------- */
   #artigos article {
     margin: auto;
@@ -446,6 +448,43 @@ section img {
   }
 }
 
+/* max 450px */
+
+@media (max-width: 450px) {
+  /* ------------ #txtmedia ---------------- */
+  #txtmedia{
+    display: none;
+  }
+
+  /* ------------ #sec2 ---------------- */
+  #sec2 ul {
+    max-width: 236px;
+    margin: 30px auto;
+  }
+
+  /* ------------ #sec3 ---------------- */
+  #sec3 li {
+    width: 100%;
+    margin-bottom: 60px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+  }
+  #sec3 li:last-child {
+    margin-bottom: 10px;
+  }
+  #sec3 p {
+    max-width: 100%;
+  }
+
+  /* ------------ #sec4 ---------------- */
+  #sec4{
+    display: none;
+  }
+
+}
+
 /* max 380px */
 
 @media (max-width: 380px) {
@@ -453,15 +492,19 @@ section img {
   #media {
     height: 600px;
   }
-
   #media figcaption {
     top: 40px;
   }
-
   #media img {
     display: block;
     width: 150%;
   }
+
+  /* ------------ #artigos ---------------- */
+  #artigos{
+    display: none;
+  }
+
 }
 
 /* max 306px */
@@ -471,8 +514,8 @@ section img {
   #media {
     height: 550px;
   }
-
   #media h1 {
     font-size: 2.0rem;
   }
+  
 }
