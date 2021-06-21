@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.    : House Facilities : . Pág-Home</title>
+    <title>. : House Facilities : . Pág-Home</title>
 
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./home-style.css">
@@ -46,7 +46,9 @@
     <main>
         <figure id="media">
             <picture>
-                <source media="(max-width: 500px)" srcset="imgs/mediatop-500.png">
+                <source media="(max-width: 510px)" srcset="imgs/mediatop-510.png">
+
+                <source media="(max-width: 780px)" srcset="imgs/mediatop-780.png">
 
                 <source media="(max-width: 980px)" srcset="imgs/mediatop-980.png">
 
@@ -80,7 +82,7 @@
             <div id="sec1">
                 <article>
                     <header>
-                        <h1>SEU NEGÓCIO É SEMPRE BEM VINDO NA <strong>HOUSE FACILITIES</strong>.</h1>
+                        <h1 class="sec-title">SEU NEGÓCIO É SEMPRE BEM VINDO NA <strong>HOUSE FACILITIES</strong>.</h1>
                     </header>
                     <p>A expertise que conquistamos em anos de atendimento aos mais diversos tipos de negócios, nos
                         deixaram aptos a ouvir e entender as necessidades de empresas e clientes entrantes ou com mais
@@ -118,7 +120,7 @@
             </div>
 
             <div id="sec2">
-                <h1>ALGUMAS FORMAS DE COMO PODEMOS TE AJUDAR:</h1>
+                <h1 class="sec-title">ALGUMAS FORMAS DE COMO PODEMOS TE AJUDAR:</h1>
                 <ul class="owl-carousel owl-theme">
                     <li>
                         <figure>
@@ -263,12 +265,16 @@
                                     items: 1,
                                     nav: true
                                 },
-                                600: {
+                                510: {
+                                    items: 2,
+                                    nav: true,
+                                },
+                                710: {
                                     items: 3,
                                     nav: false
                                 },
                                 1000: {
-                                    items: 5,
+                                    items: 4,
                                     nav: true,
                                     loop: false,
                                     margin: 20
@@ -289,7 +295,7 @@
 
         <section>
             <div id="sec3">
-                <h1>CONHEÇA UM POUCO MAIS SOBRE NÓS...</h1>
+                <h1 class="sec-title">CONHEÇA UM POUCO MAIS SOBRE NÓS...</h1>
                 <ul>
                     <li><img src="imgs/icon-missao.svg" alt="icone missão">
                         <span>
@@ -325,32 +331,38 @@
             <div id="artigos">
                 <article>
                     <img src="imgs/article-01.png" alt="Imagem sobre o serviço de supervisão">
-                    <header>
-                        <h2>SATISFAÇÃO PROFISSIONAL</h2>
-                    </header>
-                    <p>Provemos qualidade de vida para nossos colaboradores, além de treinamento, capacitação,
-                        crescimento pessoal e profissional, nosso pessoal é incentivado com salários justos e
-                        compatíveis com o mercado, e isso se reflete nos serviços que executados no ambiente de
-                        trabalho!</p>
+                    <span>
+                        <header>
+                            <h2>SATISFAÇÃO PROFISSIONAL</h2>
+                        </header>
+                        <p>Provemos qualidade de vida para nossos colaboradores, além de treinamento, capacitação,
+                            crescimento pessoal e profissional, nosso pessoal é incentivado com salários justos e
+                            compatíveis com o mercado, e isso se reflete nos serviços que executados no ambiente de
+                            trabalho!</p>
+                    </span>
                 </article>
                 <article>
                     <img src="imgs/article-02.png" alt="Imagem sobre o serviço de supervisão">
-                    <header>
-                        <h2>RECRUTAMENTO EFETIVO</h2>
-                    </header>
-                    <p>A equipe de RH é treinada para estar atenta as necessidades de nossos clientes, além de possuir
-                        uma vasta experiência em atrair e reter os melhores profissionais do mercado para a execução de
-                        nossos serviços, mantem um grande banco de talentos para demandas emergenciais.</p>
+                    <span>
+                        <header>
+                            <h2>RECRUTAMENTO EFETIVO</h2>
+                        </header>
+                        <p>A equipe de RH é treinada para estar atenta as necessidades de nossos clientes, além de possuir
+                            uma vasta experiência em atrair e reter os melhores profissionais do mercado para a execução de
+                            nossos serviços, mantem um grande banco de talentos para demandas emergenciais.</p>
+                    </span>
                 </article>
                 <article>
                     <img src="imgs/article-03.png" alt="Imagem sobre o serviço de supervisão">
-                    <header>
-                        <h2>TREINAMENTO CONTÍNUO</h2>
-                    </header>
-                    <p>Aqui na House Facilities, nossos colaboradores são motivados, incentivados e treinados para
-                        enfrentarem novos desafios, pois priorizamos a escolha de profissionais que estão atuando na
-                        organização, para exercerem cargos de liderança ou com maiores salários na operação de nossos
-                        serviços.</p>
+                    <span>
+                        <header>
+                            <h2>TREINAMENTO CONTÍNUO</h2>
+                        </header>
+                        <p>Aqui na House Facilities, nossos colaboradores são motivados, incentivados e treinados para
+                            enfrentarem novos desafios, pois priorizamos a escolha de profissionais que estão atuando na
+                            organização, para exercerem cargos de liderança ou com maiores salários na operação de nossos
+                            serviços.</p>
+                    </span>
                 </article>
             </div>
         </section>
@@ -358,7 +370,7 @@
     </main>
 
     <footer>
-        <h1>HF QUALIDADE PARA SEU EMPREENDIMENTO</h1>
+        <h1 class="sec-title">HF QUALIDADE PARA SEU EMPREENDIMENTO</h1>
         <div id="principal">
             <p>Somos a <strong>House Facilities</strong>, empresa especializada na criar e adaptar soluções exclusivas
                 na prestação e gerenciamento de <strong>Facilities Services</strong>, sediada na cidade de São Paulo -

@@ -261,7 +261,7 @@ footer li a:hover{
 
 /* max 980px */
 
-@media (max-width: 980px) {
+@media (max-width: 920px) {
   #btn-mobile{
     display: block;
   }
