@@ -16,32 +16,29 @@
 
 @font-face {
   font-family: 'montserratmedium';
-  src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-medium-webfont.woff') format('woff');
+  src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'), url('../fonts/montserrat-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'montserratregular';
-  src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-regular-webfont.woff') format('woff');
+  src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'mntsrtxlight';
-  src: url('../fonts/montserrat-extralight-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-extralight-webfont.woff') format('woff');
+  src: url('../fonts/montserrat-extralight-webfont.woff2') format('woff2'), url('../fonts/montserrat-extralight-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
 /* Formatação da div Container */
-html{
+
+html {
   font-size: 62.5%;
   background-color: #fff;
 }
@@ -51,7 +48,7 @@ body {
   margin: auto;
   min-width: 170px;
   font-family: 'montserratregular';
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Formatação do header */
@@ -93,7 +90,7 @@ body {
   color: rgb(4, 75, 154);
 }
 
-#menu li a::after{
+#menu li a::after {
   content: "";
   position: absolute;
   top: 0;
@@ -136,20 +133,19 @@ body {
 
 /* ------------ #main ---------------- */
 
-main{
+main {
   background-color: #fff;
 }
 
-
 /* ------------ #footer ---------------- */
 
-footer{
+footer {
   background-color: #333;
   color: #fff;
 }
 
-footer h1{
-  padding: 20px 0px 10px;
+footer h1 {
+  padding: 20px 30px 10px;
   width: 100%;
   font-family: 'mntsrtxlight';
   font-size: 4.8em;
@@ -157,35 +153,35 @@ footer h1{
   background-color: #222;
 }
 
-#principal{
-  padding: 25px 0;
+#principal {
+  padding: 25px 30px;
   max-width: 900px;
   margin: auto;
 }
 
-#principal>p{
+#principal>p {
   font-size: 1.6em;
   font-weight: lighter;
   text-align: center;
 }
 
-#principal > p a{
+#principal>p a {
   color: #999;
   text-decoration: underline;
 }
 
-#bttm-nav{
+#bttm-nav {
   display: flex;
   justify-content: space-between;
   padding: 60px 0;
   max-width: 750px;
 }
 
-#bttm-nav img{
-  width: 240px;
+#bttm-nav img {
+  max-width: 240px;
 }
 
-footer ul{
+footer ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -194,17 +190,17 @@ footer ul{
   font-size: 1.6em;
 }
 
-footer li a{
-  padding: 5px 20px;
+footer li a {
+  padding: 5px 15px;
   color: #999;
 }
 
-footer li a:hover{
+footer li a:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-#copysocial{
+#copysocial {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -212,22 +208,23 @@ footer li a:hover{
   font-family: 'mntsrtxlight';
   font-size: 1.6em;
   color: #999;
+  gap: 20px;
 }
 
-#copysocial span{
+#copysocial span {
   display: flex;
   gap: 10px;
 }
 
-#copysocial a{
+#copysocial a {
   opacity: 0.4;
 }
 
-#copysocial a:hover{
+#copysocial a:hover {
   opacity: 1;
 }
 
-#copysocial img{
+#copysocial img {
   width: 35px;
 }
 
@@ -236,15 +233,12 @@ footer li a:hover{
 /* max 1280px */
 
 @media (max-width: 1280px) {
-
-  #header{
+  #header {
     height: 60px;
   }
-
   #menu a {
     font-size: 1.6rrem;
   }
-
   #logo {
     width: 143px;
   }
@@ -253,20 +247,18 @@ footer li a:hover{
 /* max 1080px */
 
 @media (max-width: 1080px) {
-
-  #header{
+  #header {
     padding: 1.5em 2.0em 1em;
   }
 }
 
-/* max 980px */
+/* max 920px */
 
 @media (max-width: 920px) {
-  #btn-mobile{
+  #btn-mobile {
     display: block;
   }
-  
-  #menu{
+  #menu {
     display: block;
     position: absolute;
     z-index: 999999;
@@ -279,8 +271,7 @@ footer li a:hover{
     visibility: hidden;
     overflow-y: hidden;
   }
-
-  #nav.active #menu{
+  #nav.active #menu {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -288,7 +279,6 @@ footer li a:hover{
     visibility: visible;
     overflow-y: auto;
   }
-
   #menu a {
     display: block;
     padding: 1.0em;
@@ -297,22 +287,19 @@ footer li a:hover{
     text-align: center;
     padding: 20px;
   }
-
-  #btn-mobile{
+  #btn-mobile {
     display: flex;
     padding: .5rem 1rem;
     border: none;
     background: none;
     cursor: pointer;
   }
-
-  #hamburguer{
+  #hamburguer {
     display: block;
-    width:20px;
+    width: 20px;
     border-top: 2px solid #000;
   }
-
-  #hamburguer::after, #hamburguer::before{
+  #hamburguer::after, #hamburguer::before {
     content: '';
     display: block;
     width: 20px;
@@ -322,30 +309,71 @@ footer li a:hover{
     transition: .3s;
     position: relative;
   }
-
-  #nav.active #hamburguer{
+  #nav.active #hamburguer {
     border-top-color: transparent;
   }
-  
-  #nav.active #hamburguer::before{
+  #nav.active #hamburguer::before {
     transform: rotate(135deg);
   }
-  
-  #nav.active #hamburguer::after{
+  #nav.active #hamburguer::after {
     transform: rotate(-135deg);
     top: -7px
+  }
+}
+
+/* max 780px */
+
+@media (max-width: 780px) {
+  /* ------------ #footer ---------------- */
+  main {
+    display: none;
+  }
+  #bttm-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+    max-width: 750px;
+  }
+  footer ul {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    gap: 20px 0;
   }
 }
 
 /* max 500px */
 
 @media (max-width: 500px) {
-
+  /* ------------ header ---------------- */
   #logo {
     min-width: 123px;
   }
-
-  #header{
+  #header {
     padding: 1.5em 2.0em 1em;
+  }
+  /* ------------ #footer ---------------- */
+  #bttm-nav img {
+    max-width: 240px;
+  }
+  #copysocial {
+    flex-direction: column;
+  }
+  #copysocial p{
+    text-align: center;
+  }
+}
+
+/* max 380px */
+
+@media (max-width: 380px) {
+  /* ------------ #footer ---------------- */
+  footer>.sec-title{
+    font-size: 2.2em;
+  }
+  footer ul {
+    width: 100%;
   }
 }

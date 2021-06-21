@@ -410,8 +410,7 @@ section img {
     height: 400px;
     overflow: hidden;
   }
-  /* ------------ #sec2 ---------------- */
-  #sec2 img {}
+  
   /* ------------ #artigos ---------------- */
   #artigos article {
     margin: auto;
