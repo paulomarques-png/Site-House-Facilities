@@ -325,9 +325,6 @@ footer li a:hover {
 
 @media (max-width: 780px) {
   /* ------------ #footer ---------------- */
-  main {
-    display: none;
-  }
   #bttm-nav {
     display: flex;
     flex-direction: column;
