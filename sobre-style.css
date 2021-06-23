@@ -353,12 +353,14 @@ section>p a:hover {
     }
     #pilares>div {
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 }
 
 /* max 410px */
 
+@media (max-width: 410px) {
     /* ------------ #article ---------------- */
     #media {
         height: 400px;
