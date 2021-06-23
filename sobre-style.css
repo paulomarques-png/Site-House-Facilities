@@ -18,8 +18,9 @@ p {
     position: absolute;
     top: 80px;
     left: 145px;
-    width: 500px;
+    max-width: 500px;
     color: #fff;
+    padding-right: 30px;
 }
 
 #media h1 {
@@ -60,6 +61,10 @@ article h2 {
     letter-spacing: 0.1rem;
 }
 
+article h1.mobile {
+    display: none;
+}
+
 article h3 {
     padding: 20px 7px;
     font-size: 2.0rem;
@@ -85,6 +90,7 @@ article p {
 #sobre li {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     width: 31%;
 }
 
@@ -115,15 +121,16 @@ article p {
 }
 
 #t-pilares span {
-    margin: -40px 45px 0;
+    margin: -50px 10px 0 45px;
     font-size: 31.8rem;
     color: rgb(4, 75, 154);
 }
 
 #t-pilares h1 {
-    font-size: 7.0rem;
     max-width: 818px;
+    font-size: 7.0rem;
     font-weight: lighter;
+    line-height: 70px;
     color: #999;
 }
 
@@ -132,18 +139,17 @@ article p {
 #pilares {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 #pilares>div:nth-child(even) {
-    align-self: flex-end
+    align-self: flex-end;
 }
 
 #pilares>div {
     display: flex;
 }
 
-#pilares>div>.valores {
+.valores {
     margin: -15px 20px 0 0;
     font-size: 11rem;
     color: rgb(4, 75, 154);
@@ -176,4 +182,196 @@ section>p a {
 
 section>p a:hover {
     color: #999;
+}
+
+/* max 1280px */
+
+@media (max-width: 1280px) {
+    /* ------------ #sec1 ---------------- */
+    #media figcaption {
+        top: 60px;
+        left: 40px;
+    }
+    /* ------------ article ---------------- */
+    article {
+        align-items: center;
+    }
+    #pilares {
+        gap: 30px;
+    }
+}
+
+/* max 1080px */
+
+@media (max-width: 1080px) {
+    /* ------------ article ---------------- */
+    article {
+        flex-direction: column;
+    }
+    .desk {
+        display: none;
+    }
+    article h1.mobile {
+        display: inherit;
+        font-size: 8.6rem;
+        text-align: center;
+    }
+    article h3 {
+        padding: 0;
+        font-size: 2.0rem;
+        letter-spacing: inherit;
+        text-align: center;
+        line-height: 1.3em;
+    }
+    article p {
+        padding-top: 30px;
+        margin-left: initial;
+    }
+    #sobre {
+        display: inherit;
+        max-width: 800px;
+        margin: 80px auto 0;
+    }
+    #sobre li {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    #sobre li:last-child {
+        margin-bottom: 10px;
+    }
+    #sobre p {
+        max-width: 100%;
+    }
+    #t-pilares span {
+        margin-left: 0;
+    }
+}
+
+/* max 900px */
+
+@media (max-width: 900px) {
+    /* ------------ article ---------------- */
+    article h1.mobile {
+        display: inherit;
+        font-size: 5.6rem;
+        text-align: center;
+    }
+    #t-pilares h1 {
+        font-size: 6rem;
+        line-height: 60px;
+    }
+    #pilares {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item1 {
+        margin-left: 20px;
+    }
+    .item4 {
+        letter-spacing: -10px;
+    }
+    #pilares>div:nth-child(even) {
+        align-self: inherit;
+    }
+}
+
+/* max 780x */
+
+@media (max-width: 780px) {
+    /* ------------ #media ---------------- */
+    #media figcaption {
+        top: 40px;
+    }
+    #media h1 {
+        font-size: 2.6rem;
+    }
+    #t-pilares h1 {
+        font-size: 5rem;
+        line-height: 55px;
+    }
+}
+
+/* max 610px */
+
+@media (max-width: 610px) {
+    /* ------------ #article ---------------- */
+    article h1.mobile {
+        font-size: 3.8rem;
+    }
+    article p {
+        text-align: center;
+    }
+    #sobre li {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #t-pilares span {
+        margin-top: -35px;
+        font-size: 21.8rem;
+    }
+    #t-pilares h1 {
+        font-size: 3.6rem;
+        line-height: inherit;
+    }
+}
+
+/* max 440px */
+
+@media (max-width: 440px) {
+    /* ------------ #article ---------------- */
+    article h1.mobile {
+        display: none;
+    }
+    .desk {
+        display: inherit;
+        text-align: center;
+    }
+    h1.desk {
+        font-size: 6.2rem;
+    }
+    h2.desk {
+        font-size: 3.8rem;
+        font-weight: bolder;
+        margin: -10px 0 10px;
+    }
+    #t-pilares {
+        padding: 60px 0 50px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #t-pilares span {
+        margin: 0;
+        font-size: 21.8rem;
+        line-height: 18rem;
+    }
+    #t-pilares h1 {
+        font-size: 3.6rem;
+        line-height: inherit;
+    }
+    #pilares>div {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* max 410px */
+
+    /* ------------ #article ---------------- */
+    #media {
+        height: 400px;
+        overflow: auto;
+    }
+}
+
+/* max 340px */
+
+@media (max-width: 340px) {
+    /* ------------ #article ---------------- */
+    span>h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
 }

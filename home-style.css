@@ -333,7 +333,7 @@ section img {
 @media (max-width: 1080px) {
   /* ------------ #sec3 ---------------- */
   #sec3 ul {
-    display: block;
+    display: inherit;
     padding: 50px 0;
   }
   #sec3 li {
@@ -468,7 +468,7 @@ section img {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
   }
   #sec3 li:last-child {
     margin-bottom: 10px;
