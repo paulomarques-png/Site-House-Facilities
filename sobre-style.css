@@ -1,4 +1,8 @@
 @charset "utf-8";
+p {
+    line-height: 2rem;
+}
+
 /* ------------ #media ---------------- */
 
 #media {
@@ -47,7 +51,6 @@ article h1, h2, h3 {
 }
 
 article h1 {
-    margin: -22px 0 0 -5px;
     font-size: 12.8rem;
 }
 
@@ -62,6 +65,7 @@ article h3 {
     font-size: 2.0rem;
     letter-spacing: 0.17rem;
     text-align: justify;
+    line-height: 1.3em;
 }
 
 article p {
@@ -110,8 +114,8 @@ article p {
     display: flex;
 }
 
-#t-pilares p {
-    margin: -45px 45px 0;
+#t-pilares span {
+    margin: -40px 45px 0;
     font-size: 31.8rem;
     color: rgb(4, 75, 154);
 }
@@ -139,7 +143,7 @@ article p {
     display: flex;
 }
 
-#pilares>div>p {
+#pilares>div>.valores {
     margin: -15px 20px 0 0;
     font-size: 11rem;
     color: rgb(4, 75, 154);
@@ -164,12 +168,12 @@ section>p {
     color: #666;
 }
 
-section > p a {
+section>p a {
     color: rgb(4, 75, 154);
     font-weight: bolder;
     text-decoration: underline;
 }
 
-section > p a:hover {
+section>p a:hover {
     color: #999;
 }
