@@ -368,7 +368,7 @@ section>p a:hover {
     /* ------------ #article ---------------- */
     #media {
         height: 400px;
-        overflow: auto;
+        overflow: hidden;
     }
 }
 
