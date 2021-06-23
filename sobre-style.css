@@ -1,6 +1,6 @@
 @charset "utf-8";
 p {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 /* ------------ #media ---------------- */
@@ -352,9 +352,13 @@ section>p a:hover {
         line-height: inherit;
     }
     #pilares>div {
+        margin-top: 60px;
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .valores{
+        line-height: 10rem;
     }
 }
 

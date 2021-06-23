@@ -146,8 +146,8 @@ footer {
 footer h1 {
   padding: 20px 30px 10px;
   width: 100%;
+  font-size: 3.6rem;
   font-family: 'mntsrtxlight';
-  font-size: 4.8em;
   text-align: center;
   background-color: #222;
 }
@@ -241,6 +241,14 @@ footer li a:hover {
   }
   #logo {
     width: 143px;
+  }
+}
+
+/* max 1200px */
+
+@media (max-width: 1200px) {
+  footer h1 {
+    font-size: 2.6rem;
   }
 }
 
@@ -361,7 +369,7 @@ footer li a:hover {
   #copysocial {
     flex-direction: column;
   }
-  #copysocial p{
+  #copysocial p {
     text-align: center;
   }
 }
@@ -370,8 +378,8 @@ footer li a:hover {
 
 @media (max-width: 380px) {
   /* ------------ #footer ---------------- */
-  footer>.sec-title{
-    font-size: 2.2em;
+  footer h1 {
+    font-size: 2rem;
   }
   footer ul {
     width: 100%;
