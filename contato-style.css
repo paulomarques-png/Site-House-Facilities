@@ -52,17 +52,17 @@ section, form {
 
 .dado1 {
     ibackground-color: pink;
-    max-width: 207px;
+    width: 207px;
 }
 
 .dado2 {
     ibackground-color: red;
-    max-width: 210px;
+    width: 210px;
 }
 
 .dado3 {
     ibackground-color: lightgreen;
-    max-width: 305px;
+    width: 305px;
 }
 
 .dado4 {
@@ -186,6 +186,7 @@ textarea {
     }
     /* ------------ h1#titlesecoes ---------------- */
     #titlesecoes {
+        padding: 30px 20px;
         font-size: 2.2rem;
     }
     /* ------------ form ---------------- */
@@ -228,7 +229,7 @@ textarea {
         overflow: hidden;
     }
     /* ------------ #article ---------------- */
-    .dado4 {
+    .dado1, .dado2, .dado3, .dado4 {
         width: auto;
     }
 }
