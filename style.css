@@ -277,7 +277,7 @@ footer li a:hover {
     transition: .6s;
     height: 0px;
     visibility: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   #nav.active #menu {
     padding-top: 30px;
