@@ -285,7 +285,7 @@ footer li a:hover {
     flex-direction: column;
     height: calc(100vh - 60px);
     visibility: visible;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
   #menu a {
     display: block;

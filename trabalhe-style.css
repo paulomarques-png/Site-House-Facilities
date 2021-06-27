@@ -32,7 +32,7 @@ p {
     line-height: 1.6em;
 }
 
-/* ------------ section form---------------- */
+/* ------------ section ---------------- */
 
 section{
     padding: 80px 40px 60px;
@@ -205,6 +205,12 @@ article p{
 /* max 410px */
 
 @media (max-width: 410px) {
+
+    /* ------------ section ---------------- */
+    
+    section{
+        padding: 60px 20px 40px;
+    }
     /* ------------ #article ---------------- */
     #media {
         height: 400px;
