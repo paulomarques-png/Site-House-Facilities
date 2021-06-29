@@ -60,7 +60,7 @@ section>article ul {
 }
 
 section>article li:last-child {
-    visibility: hidden;
+    visibility: visible;
 }
 
 section>article li {
