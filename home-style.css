@@ -109,7 +109,7 @@ section {
 }
 
 section img {
-  max-width: 100%;
+  width: 100%;
 }
 
 /* ------------ #sec1 ---------------- */
@@ -287,7 +287,7 @@ section img {
 }
 
 #artigos article {
-  max-width: 396px;
+  width: 396px;
 }
 
 #artigos h2 {
@@ -394,7 +394,10 @@ section img {
     display: flex;
     align-items: center;
     gap: 30px;
-    max-width: 100%;
+    width: 100%;
+  }
+  #artigos article img{
+    width: 369px;
   }
   #artigos h2 {
     margin: 0px 0 5px;
