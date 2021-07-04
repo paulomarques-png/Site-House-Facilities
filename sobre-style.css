@@ -1,6 +1,6 @@
 @charset "utf-8";
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 /* ------------ #media ---------------- */
@@ -16,11 +16,11 @@ p {
 
 #media figcaption {
     position: absolute;
-    top: 80px;
-    left: 145px;
-    max-width: 500px;
-    color: #fff;
     padding-right: 30px;
+    top: 80px;
+    left: 80px;
+    max-width: 700px;
+    color: #fff;
 }
 
 #media h1 {
@@ -187,10 +187,10 @@ section>p a:hover {
 /* max 1280px */
 
 @media (max-width: 1280px) {
-    /* ------------ #sec1 ---------------- */
+    /* ------------ #media ---------------- */
     #media figcaption {
         top: 60px;
-        left: 40px;
+        left: 60px;
     }
     /* ------------ article ---------------- */
     article {
@@ -204,6 +204,16 @@ section>p a:hover {
 /* max 1080px */
 
 @media (max-width: 1080px) {
+    /* ------------ #media ---------------- */
+    #media figcaption {
+        top: 40px;
+        left: 40px;
+        max-width: 520px;
+    }
+    #media p.txt {
+        margin: 10px 0;
+        line-height: 1.4em;
+    }
     /* ------------ article ---------------- */
     article {
         flex-direction: column;
@@ -280,12 +290,11 @@ section>p a:hover {
 
 @media (max-width: 780px) {
     /* ------------ #media ---------------- */
-    #media figcaption {
-        top: 40px;
-    }
     #media h1 {
         font-size: 2.6rem;
     }
+    
+    /* ------------ #t-pilares ---------------- */
     #t-pilares h1 {
         font-size: 5rem;
         line-height: 55px;
@@ -320,6 +329,11 @@ section>p a:hover {
 /* max 440px */
 
 @media (max-width: 440px) {
+    /* ------------ #media ---------------- */
+    #media {
+        background-color: rgb(4, 75, 154);
+        height: 300px;
+    }
     /* ------------ #article ---------------- */
     article h1.mobile {
         display: none;
@@ -357,18 +371,8 @@ section>p a:hover {
         align-items: center;
         text-align: center;
     }
-    .valores{
+    .valores {
         line-height: 10rem;
-    }
-}
-
-/* max 410px */
-
-@media (max-width: 410px) {
-    /* ------------ #article ---------------- */
-    #media {
-        height: 400px;
-        overflow: hidden;
     }
 }
 

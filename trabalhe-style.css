@@ -18,8 +18,8 @@ p {
     position: absolute;
     padding-right: 30px;
     top: 80px;
-    left: 145px;
-    max-width: 500px;
+    left: 80px;
+    max-width: 700px;
     color: #fff;
 }
 
@@ -34,38 +34,38 @@ p {
 
 /* ------------ section ---------------- */
 
-section{
+section {
     padding: 80px 40px 60px;
 }
 
 /* ------------ #trabalhe ---------------- */
 
-#trabalhe{
+#trabalhe {
     display: flex;
     justify-content: space-between;
 }
 
 /* ------------ article ---------------- */
 
-article{
+article {
     max-width: 550px;
     color: #444;
 }
 
-article h1{
+article h1 {
     font-size: 5.8rem;
     font-weight: normal;
     letter-spacing: 0.4px;
 }
 
-article h2{
+article h2 {
     font-size: 2.5rem;
     font-weight: normal;
     letter-spacing: 1.3px;
     text-align: justify;
 }
 
-article p{
+article p {
     padding: 15px 0;
     font-size: 1.6rem;
     letter-spacing: 1.2px;
@@ -73,12 +73,12 @@ article p{
 
 /* ------------ form ---------------- */
 
-form{
+form {
     width: 100%;
     padding-left: 100px;
 }
 
-input, textarea{
+input, textarea {
     padding: 5px 10px 0 15px;
     width: 100%;
     height: 47px;
@@ -88,11 +88,11 @@ input, textarea{
     font-size: 1.8rem;
 }
 
-::placeholder{
+::placeholder {
     opacity: .35;
 }
 
-label{
+label {
     margin-left: 15px;
     display: block;
     margin-bottom: 10px;
@@ -101,7 +101,7 @@ label{
     color: rgb(4, 75, 154);
 }
 
-form input[type=submit]{
+form input[type=submit] {
     font-family: 'montserratmedium';
     border: none;
     background-color: lightgreen;
@@ -109,13 +109,13 @@ form input[type=submit]{
     transition: .3s;
 }
 
-form input[type=submit]:hover{
+form input[type=submit]:hover {
     background-color: green;
     color: lightgreen;
     transition: .3s;
 }
 
-textarea{
+textarea {
     height: 147px;
     resize: none;
 }
@@ -126,67 +126,61 @@ textarea{
     /* ------------ #media ---------------- */
     #media figcaption {
         top: 60px;
-        left: 40px;
+        left: 60px;
     }
 }
 
 /* max 1080px */
 
 @media (max-width: 1080px) {
-
+    /* ------------ #media ---------------- */
+    #media figcaption {
+        top: 40px;
+        left: 40px;
+        max-width: 520px;
+    }
+    #media p.txt {
+        margin: 10px 0;
+        line-height: 1.4em;
+    }
     /* ------------ #trabalhe ---------------- */
-    
-    #trabalhe{
+    #trabalhe {
         justify-content: space-between;
         flex-direction: column;
     }
-
     /* ------------ article ---------------- */
-    
-    article{
+    article {
         max-width: 100%;
     }
-
-    article h1{
+    article h1 {
         text-align: center;
     }
-
-    article h2{
+    article h2 {
         letter-spacing: inherit;
         text-align: center;
     }
-
-    article p{
+    article p {
         padding: 40px 0;
     }
-
     /* ------------ form ---------------- */
-    
-    form{
+    form {
         width: 100%;
         padding: 40px 0 0;
     }
-    
 }
 
 /* max 780px */
 
 @media (max-width: 780px) {
     /* ------------ #media ---------------- */
-    #media figcaption {
-        top: 40px;
-    }
     #media h1 {
         font-size: 2.6rem;
     }
-
     /* ------------ article ---------------- */
-
-    article h1{
+    article h1 {
         font-size: 3.8rem;
     }
-
-    article h2{
+    article h2 {
         font-size: 2.0rem;
     }
 }
@@ -194,26 +188,22 @@ textarea{
 /* max 580px */
 
 @media (max-width: 580px) {
-
     /* ------------ article ---------------- */
-
-article p{
-    text-align: center;
-}
+    article p {
+        text-align: center;
+    }
 }
 
 /* max 410px */
 
 @media (max-width: 410px) {
-
-    /* ------------ section ---------------- */
-    
-    section{
-        padding: 60px 20px 40px;
-    }
-    /* ------------ #article ---------------- */
+    /* ------------ #media ---------------- */
     #media {
-        height: 400px;
-        overflow: hidden;
+        background-color: rgb(4, 75, 154);
+        height: 350px;
+    }
+    /* ------------ section ---------------- */
+    section {
+        padding: 60px 20px 40px;
     }
 }

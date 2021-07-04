@@ -13,8 +13,8 @@
 #media figcaption {
     position: absolute;
     top: 80px;
-    left: 145px;
-    max-width: 500px;
+    left: 80px;
+    max-width: 700px;
     color: #fff;
     padding-right: 30px;
 }
@@ -183,7 +183,22 @@ section>article p {
     /* ------------ #sec1 ---------------- */
     #media figcaption {
         top: 60px;
+        left: 60px;
+    }
+}
+
+/* max 1080px */
+
+@media (max-width: 1080px) {
+    /* ------------ #media ---------------- */
+    #media figcaption {
+        top: 40px;
         left: 40px;
+        max-width: 500px;
+    }
+    #media p.txt {
+        margin: 10px 0;
+        line-height: 1.4em;
     }
 }
 
@@ -208,9 +223,6 @@ section>article p {
 
 @media (max-width: 780px) {
     /* ------------ #media ---------------- */
-    #media figcaption {
-        top: 40px;
-    }
     #media h1 {
         font-size: 2.6rem;
     }
@@ -250,10 +262,10 @@ section>article p {
     section {
         padding: 40px 20px 40px;
     }
-    /* ------------ #article ---------------- */
+    /* ------------ #media ---------------- */
     #media {
-        height: 400px;
-        overflow: hidden;
+        background-color: rgb(4, 75, 154);
+        height: 350px;
     }
     /* ------------ #content ---------------- */
     section>article li {
