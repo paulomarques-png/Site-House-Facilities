@@ -92,7 +92,7 @@ section, form {
 }
 
 #dados h1 {
-    margin: 10px 0 0;
+    padding: 10px 0 5px;
     font-weight: normal;
     color: rgb(4, 75, 154);
     font-size: 2.4rem;
