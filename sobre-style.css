@@ -29,7 +29,7 @@ p {
 
 #media p.txt {
     font-size: 1.6rem;
-    line-height: 1.6em;
+    line-height: 1.2em;
 }
 
 /* ------------ section ---------------- */
@@ -212,7 +212,6 @@ section>p a:hover {
     }
     #media p.txt {
         margin: 10px 0;
-        line-height: 1.4em;
     }
     /* ------------ article ---------------- */
     article {
