@@ -1,6 +1,6 @@
 @media (max-width: 920px) {
   #menu {
-    background: rgb(4, 75, 154);
+    /* background: rgb(4, 75, 154);
     height: 100%;
     left: 0;
     opacity: 0;
@@ -8,15 +8,31 @@
     position: fixed;
     text-align: center;
     top: 0;
-    -webkit-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
     visibility: hidden;
     width: 100%;
+    z-index: 1100; */
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    background: rgb(4, 75, 154);
     z-index: 1100;
+    height: calc(100vh - 70px);
+    visibility: hidden;
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    
   }
   #menu.open {
     opacity: 1;
     visibility: visible;
+    
   }
   #menu.open li:nth-child(1) {
     -webkit-animation-delay: 0.1s;
@@ -162,7 +178,6 @@
     transition: background 0.2s ease-out;
   }
   .toggle-menu.active span:before, .toggle-menu.active span:after {
-    background-color: #fff;
     -webkit-transition: top 0.2s ease-out, -webkit-transform 0.2s 0.2s ease-out;
     transition: top 0.2s ease-out, -webkit-transform 0.2s 0.2s ease-out;
     transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;

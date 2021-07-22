@@ -65,9 +65,9 @@ body {
   width: 163px;
 }
 
-#menu ul {
+#menu{
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 #menu a {
