@@ -13,15 +13,14 @@ body {
 
 // It actually starts here
 
-$menu-bg: #DE4152;
+$menu-bg: #de4152;
 $menu-color: #ffffff;
 $menu-font-size: 2.5rem;
 $menu-zindex: 1100;
-$hamburger-color: #000;
+$hamburger-color: #fff;
 $hamburger-width: 50px;
 $hamburger-height: 50px;
 $hamburger-zindex: $menu-zindex + 10;
-
 
 #menu {
   background: $menu-bg;
@@ -44,12 +43,12 @@ $hamburger-zindex: $menu-zindex + 10;
 
     @for $i from 1 through 10 {
       li:nth-child(#{$i}) {
-        animation-delay: $i*0.1s;
+        animation-delay: $i * 0.1s;
       }
     }
 
     li {
-      animation-duration: 1.0s;
+      animation-duration: 1s;
       animation-fill-mode: both;
       animation-name: fadeInUp;
     }
@@ -125,7 +124,6 @@ $hamburger-zindex: $menu-zindex + 10;
   }
 }
 
-
 // Hamburger menu toggler stuff below
 .toggle-menu {
   background-color: transparent;
@@ -147,21 +145,22 @@ $hamburger-zindex: $menu-zindex + 10;
     content: "";
     display: block;
     height: 2px;
-    left: calc(50% - 13px );
+    left: calc(50% - 13px);
     position: absolute;
-    top: calc(50% - 1px );
+    top: calc(50% - 1px);
     transform-origin: 50% 50%;
-    transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
+    transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out, transform 0.2s linear;
     width: 26px;
 
-    &:before, &:after {
+    &:before,
+    &:after {
       background-color: $hamburger-color;
       content: "";
       display: block;
       height: 2px;
       position: absolute;
       transform-origin: 50% 50%;
-      transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear;
+      transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out, transform 0.2s linear;
       width: 26px;
     }
 
@@ -179,7 +178,8 @@ $hamburger-zindex: $menu-zindex + 10;
       background-color: transparent;
       transition: background 0.2s ease-out;
 
-      &:before, &:after {
+      &:before,
+      &:after {
         transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;
       }
 
