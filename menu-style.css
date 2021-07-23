@@ -104,17 +104,14 @@
   }
   .toggle-menu {
     background-color: transparent;
-    border: none;
     cursor: pointer;
-    display: inline-block;
-    float: right;
     height: 50px;
     outline: none;
     padding: 0;
     pointer-events: initial;
     position: relative;
     vertical-align: middle;
-    width: 50px;
+    width: 26px;
     z-index: 1110;
   }
   .toggle-menu span {
