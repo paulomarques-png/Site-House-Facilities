@@ -65,8 +65,9 @@ body {
   width: 163px;
 }
 
-#menu{
+#menu .main-nav{
   display: flex;
+  flex-direction: row;
   gap: 5rem;
 }
 
@@ -234,13 +235,6 @@ footer li a:hover {
 /* max 920px */
 
 @media (max-width: 920px) {
-  #btn-mobile {
-    display: block;
-  }
-  #menu ul {
-    display: flex;
-    flex-direction: column;
-  }
   #menu li a::after {
     display: none;
   }
