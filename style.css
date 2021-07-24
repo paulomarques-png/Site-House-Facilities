@@ -309,7 +309,9 @@ footer li a:hover {
   @-Webkit-keyframes fadeInUp {
     0% {
       opacity: 0;
+      -webkit-transform: translateY(200px);
       -moz-transform: translateY(200px);
+      transform: translateY(200px);
     }
   }
   .main-nav:hover a {
